@@ -1,168 +1,107 @@
-.bgimg{
-    background-image: url(img/x1.jpg);
-    background-size: 100% 100%;
-    background-attachment: fixed;
-    width: 100%;
-    height: 990px;
-}
-.headerset{
-    padding: 200px;
-    box-sizing: border-box;
-}
-.headerset h2{
-    font-size: 30px;
-}
-.headerset h1
-{
-    padding: 30px;
-    font-weight: bold;
-    font-size: 60px;
-}
-/*......................ourservice....................*/
-.ourservice{
-
-    padding: 100px 0px 60px;
-    height: 1000px;
-    background-color: rgb(180, 178, 178);
-    
-
-}
-.ourservice h1{
-    
-    font-size: 60px;
-    font-weight: bold;
-}
-.rowsetting{
-    
-    padding: 50px;
-    margin: 80px 0px important;
-}
-.imgsetting{
-    border-radius: 50% important;
-    height:100px;
-    width: 100px;
-}
-/*
-.fa-header{
-
-}*/
-/*....................portfolio33.....................*/
-.portfolio{
-    height: 1300px;
-    width :100%;
-    padding: 100px 0px 50px;
-}
-.portfolio h1{
-    font-size: 50px;
-    font-weight: bold;
-
-}
-.card
-{
-    margin-top: 40px;
-}
-
-/*.............our team..................*/
-.ourteam{
-    height:900px;
-    padding:100px 0px 60px ;
-    width: 100%;
-}
-.ourteam h1{
-    font-size: 50px;
-    font-weight: bold;
-}
-.teamsetting{
-    margin-top: 70px ;
-}
-/*...............footer..................*/
-.foot
-{
-    line-height: 50px;
-}
-
-
-
-/*....................responsive..................*/
-
-@media(min-width: 992px)
-{
-
-}
-
-@media(min-width: 768px) and (max-width:991px)
-{
-
-}
-
-@media(min-width: 575px) and (max-width:767px)
-{
-    .bgimg{
-        height: 1000px;
-    }
-    .headerset{
-        padding: 200px;
-       
-    }
-    .headerset h2{
-        font-size: 30px;
-    }
-    .headerset h1
-    {
-        
-        
-        font-size: 50px;
-    }
-    .ourservice{
-
-        
-        height: 1300px;
-                
-    }
-    .portfolio{
-        height: 3700px;
-    }
-    .ourteam{
-        height: 1700px;
-    }
-}
-
-@media(min-width: 480px) and (max-width:575px)
-{
-    .ourservice{
-        height: 2000px;
-    }
-    .portfolio{
-        height: 3000px;
-    }
-        
-}
-@media(max-width: 479px)
-{
-    .bgimg{
-        height: 1200px;
-    }
-    .headerset{
-        padding: 70px;
-       
-    }
-    .headerset h2{
-        font-size: 30px;
-    }
-    .headerset h1
-    {
-        
-        
-        font-size: 50px;
-    }
-    .ourservice{
-
-        
-        height: 2000px;
-                
-    }
-    .portfolio{
-        height: 3000px;
-    }
-    
-} 
+body {
+    font-family: "Baloo Bhai 2", cursive;
+    background-image: url("images/woman.jpg");
+    margin: 0px;
+    padding: 0px;
+    height: 800px;
+    width: 1000px;
+  }
+  #left {
+    display: inline-block;
+    position: absolute;
+    left: 15px;
+    top: -22px;
+  }
+  #mid {
+    display: block;
+    width: 60%;
+    margin: 50px auto;
+    margin-left: 350px;
+  }
+  #right {
+    display: inline-block;
+    top: 50px;
+    right: 20px;
+    position: absolute;
+  }
+  .nav {
+    display: inline-block;
+  }
+  .nav li {
+    display: inline-block;
+    font-size: 25px;
+  }
+  .nav li a {
+    color: blueviolet;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  .nav li a:hover,
+  .nav li a.active {
+    color: green;
+    text-decoration: underline;
+  }
+  #left img {
+    height: 150px;
+  }
+  #left div {
+    text-align: center;
+    font-size: 25px;
+    color: brown;
+    line-height: 0px;
+  }
+  #right button {
+    font-family: "Baloo Bhai 2", cursive;
+    color: cornflowerblue;
+    background-color: yellow;
+    padding: 6px 10px;
+    font-size: 15px;
+    border: 2px solid;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  #right button:hover {
+    color: tomato;
+  }
+  .container {
+    border: 2px solid brown;
+    margin: 90px 290px;
+    padding: 23px 23px;
+    border-radius: 14px;
+    width: 60%;
+  }
+  #btn {
+    font-family: "Baloo Bhai 2", cursive;
+  }
+  .form-id input {
+    text-align: center;
+    display: block;
+    width: 90%;
+    padding: 5px;
+    border: 2px solid palevioletred;
+    margin: 6px auto;
+    font-size: 13px;
+    font-family: "Baloo Bhai 2", cursive;
+    border-radius: 4px;
+  }
+  #h1 {
+    text-align: center;
+    color: orangered;
+  }
+  .container button {
+    display: block;
+    width: 25%;
+    margin: 4px auto;
+    border: 2px solid rgb(131, 78, 104);
+    border-radius: 4px;
+  }
+  .container button:hover {
+    color: green;
+    background-color: rgb(224, 144, 222);
+  }
+  /* .form-id input:hover{
+      border-color: indianred;
+  } */
+  
